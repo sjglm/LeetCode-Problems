@@ -83,6 +83,12 @@ public class EntryPoint
                     Console.WriteLine("\nPress any key to exit...");
                     Console.ReadKey();
                     break;
+                case 206:
+                    Console.WriteLine("Running Problem - 206. Reverse Linked List\n");
+                    ReverseLinkedListClass.InternalMain();
+                    Console.WriteLine("\nPress any key to exit...");
+                    Console.ReadKey();
+                    break;
             }
         }
     }
