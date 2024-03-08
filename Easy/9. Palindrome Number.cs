@@ -8,7 +8,7 @@ public class PalindromeNumberClass
         bool testCase2 = IsPalindrome(-121);
         bool testCase3 = IsPalindrome(-10);
         Console.WriteLine("Expected Output: True Actual Output: " + testCase1);
-        Console.WriteLine("Expected Output: True Actual Output: " + testCase2);
+        Console.WriteLine("Expected Output: False Actual Output: " + testCase2);
         Console.WriteLine("Expected Output: False Actual Output: " + testCase3);
     }
 
