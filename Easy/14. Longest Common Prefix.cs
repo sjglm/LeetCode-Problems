@@ -13,6 +13,6 @@ public class LongestCommonPrefixClass
 
     public static string LongestCommonPrefix(string[] strs)
     {
-
+        return "hello";
     }
 }

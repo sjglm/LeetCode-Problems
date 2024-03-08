@@ -16,7 +16,7 @@ public class ReverseLinkedListClass
 
 	public static ListNode ReverseList(ListNode head)
 	{
-
+		return head;
 	}
 }
 
