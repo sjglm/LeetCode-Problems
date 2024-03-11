@@ -11,6 +11,7 @@ public class EntryPoint
 {
     private static readonly Dictionary<int, Action> problemSolvers = new Dictionary<int, Action>
         {
+            { 1, TwoSumNumberClass.InternalMain },
             { 9, PalindromeNumberClass.InternalMain },
             { 14, () => Console.WriteLine("Under Construction...") },
             { 20, ValidParenthesesClass.InternalMain },
